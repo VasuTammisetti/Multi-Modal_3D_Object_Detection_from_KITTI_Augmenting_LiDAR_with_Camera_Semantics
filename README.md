@@ -30,13 +30,13 @@
 
 > *Camera image (left) fused with Bird's-Eye View LiDAR map (right) — 18 KITTI test frames*
 
-<!-- Replace with your actual GIF after running Cell 18b -->
-![Fusion Demo](assets/kitti_fusion_demo.gif)
+![Fusion Demo](fusion_detection-bev.gif)
 
-**[▶ Watch Full HD Video](assets/kitti_fusion_demo_h264.mp4)**
+<br>
+
+https://github.com/VasuTammisetti/lidar-camera-fusion-3d-detection-kitti/assets/fusion_demo-bev.mp4
 
 </div>
-
 ---
 
 ## 🧠 What Is Sensor Fusion and Why Does It Matter?
