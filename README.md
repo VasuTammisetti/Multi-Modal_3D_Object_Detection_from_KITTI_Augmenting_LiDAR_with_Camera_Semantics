@@ -39,6 +39,22 @@ https://github.com/VasuTammisetti/lidar-camera-fusion-3d-detection-kitti/assets/
 </div>
 ---
 
+## 📦 Dataset
+
+The KITTI subset used in this project is publicly available on Zenodo:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19111017.svg)](https://zenodo.org/records/19111017)
+
+**[⬇ Download Dataset — Zenodo](https://zenodo.org/records/19111017)**
+
+The archive contains pre-organised `data_object_image_2`, `data_object_velodyne`, and `data_object_calib` folders ready to use directly with this notebook.
+
+> **📝 Note:** The YOLOv8 model used in this pipeline was fine-tuned on KITTI using
+> **meta-learning** (Meta-YOLO), enabling strong performance from very few labelled examples.
+> If you replace it with a standard YOLOv8 trained from scratch, you may need significantly
+> more annotated data to achieve comparable detection quality — particularly for
+> Pedestrian and Cyclist classes which are underrepresented in typical training splits.
+---
 ## 🧠 What Is Sensor Fusion and Why Does It Matter?
 
 Modern autonomous vehicles rely on **multiple sensors simultaneously** — cameras capture rich texture and colour, while LiDAR captures precise 3D geometry. Neither alone is sufficient:
