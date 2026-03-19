@@ -34,7 +34,7 @@
 
 <br>
 
-https://github.com/VasuTammisetti/lidar-camera-fusion-3d-detection-kitti/assets/fusion_demo-bev.mp4
+https://github.com/VasuTammisetti/lidar-camera-fusion-3d-detection-kitti/assets/fusion_demo-bev.mp4 (please download and view)
 
 </div>
 ---
